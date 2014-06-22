@@ -1,6 +1,6 @@
 baselines
-baseline01: spec
-	<version: '0.1-baseline'>
+baseline02: spec
+	<version: '0.2-baseline'>
 
 	spec for: #'common' do: [
 		spec blessing: #'baseline'.
@@ -16,4 +16,4 @@ baseline01: spec
 					versionString: #'bleedingEdge';
 					repository: 'http://smalltalkhub.com/mc/hernan/BioSmalltalk/main/' ].
 		spec package: #BlastQB with: [
-				spec requires: #('BioSmalltalk' ). ]. ].
+				spec requires: #('BioSmalltalk' 'QueryBuilder' ). ]. ].
