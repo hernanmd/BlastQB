@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 6/21/2014 21:26",
+	"super" : "TripletSearchBox",
+	"category" : "BlastQB-Spec",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BlastQBSearchBox",
+	"type" : "normal"
+}

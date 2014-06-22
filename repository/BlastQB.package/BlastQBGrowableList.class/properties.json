@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "GrowableSearchList",
+	"category" : "BlastQB-Spec",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BlastQBGrowableList",
+	"type" : "normal"
+}

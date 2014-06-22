@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "QBProperty",
+	"category" : "BlastQB-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BlastQBProperty",
+	"type" : "normal"
+}

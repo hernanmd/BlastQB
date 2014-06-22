@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "MenuModel",
+	"category" : "BlastQB-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"dock",
+		"model",
+		"menu"
+	],
+	"name" : "BlastQBToolbar",
+	"type" : "normal"
+}

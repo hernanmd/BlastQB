@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "BlastQB-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"BlastCombinedProperties",
+		"BlastProperties"
+	],
+	"instvars" : [ ],
+	"name" : "BlastQBPropertyCollector",
+	"type" : "normal"
+}

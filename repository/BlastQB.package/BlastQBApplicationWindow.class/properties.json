@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "HernanMoralesDurand 6/21/2014 21:49",
+	"super" : "ComposableModel",
+	"category" : "BlastQB-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"growableList",
+		"toolbar",
+		"queryManager",
+		"mainToolbar",
+		"statusText",
+		"summaryText"
+	],
+	"name" : "BlastQBApplicationWindow",
+	"type" : "normal"
+}
