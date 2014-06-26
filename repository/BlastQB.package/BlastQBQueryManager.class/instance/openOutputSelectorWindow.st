@@ -4,7 +4,7 @@ openOutputSelectorWindow
 	
 	| resSelectorWnd |
 	
-	resSelectorWnd := BioBlastResultsSelector new blastResultOptions: self blastReader.
+	resSelectorWnd := BlastQBFilterSelector new blastResultOptions: self blastReader.
 	resSelectorWnd open.
 	^ resSelectorWnd selection isNil
 		ifFalse: [ resSelectorWnd selection selectedItems ]

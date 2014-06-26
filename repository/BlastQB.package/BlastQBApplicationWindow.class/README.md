@@ -1,4 +1,4 @@
-BlastQBApplicationWindow new openWithSpec.
+BlastQBApplicationWindow open.
 
 A Blast Query Builder application object presents a user-interface to add, edit, load and execute queries against a Blast result set in XML.
 

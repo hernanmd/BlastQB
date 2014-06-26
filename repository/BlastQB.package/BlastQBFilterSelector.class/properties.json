@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "HernanMoralesDurand 6/26/2014 21:39",
+	"super" : "PaginatedMorphTreeModel",
+	"category" : "BlastQB-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"blastResultOptions",
+		"rootClass"
+	],
+	"name" : "BlastQBFilterSelector",
+	"type" : "normal"
+}
