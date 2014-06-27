@@ -1,4 +1,6 @@
-Defines a Spec component where default properties are filled accordingly to a Blast results query.
+Defines a Spec component consisting of a row with three fields. See superclass comments for details.
+
+In this subclass, default properties are filled accordingly to a Blast results query.
 
 Usage examples
 

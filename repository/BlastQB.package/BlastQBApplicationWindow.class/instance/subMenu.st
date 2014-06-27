@@ -11,9 +11,4 @@ subMenu
 					shortcut: $p command;
 					icon: Smalltalk ui icons smallPrintIcon;
 					action: [ self inform: 'Print' ] ].
-			group addItem: [ :item |
-				item 
-					name: 'Kill';
-					shortcut: $k command;
-					icon: Smalltalk ui icons smallCancelIcon;
-					action: [ self inform: 'Kill' ] ] ]
+			group addItem: [ :item | self subMenuQuit: item ] ]

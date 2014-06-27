@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "HernanMoralesDurand 6/27/2014 02:32",
-	"super" : "TripletSearchBox",
+	"commentStamp" : "HernanMoralesDurand 6/27/2014 02:48",
+	"super" : "BlastQBSearchBox",
 	"category" : "BlastQB-Spec",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "BlastQBSearchBox",
+	"name" : "BlastQBRemovableSearchBox",
 	"type" : "normal"
 }
