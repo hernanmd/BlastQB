@@ -1,5 +1,5 @@
 initialization
 initializeWidgets
 
-	self instantiateModels: #(triplet BlastQBSearchBox).
-	self collection add: 'firstQuery'
+	self instantiateModels: #(firstQuery BlastQBSearchBox).
+	self collection add: #firstQuery
