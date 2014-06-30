@@ -2,10 +2,9 @@ menu
 subMenuOpenQuery: item
 
 	item
-		name: 'Open';
+		name: 'Open Query...';
 		icon: Smalltalk ui icons openIcon;
-		shortcut: $o command;
-		enabled: self hasDataSource;
+		shortcut: $q command;
 		action: [
-			self openDataSource. 
-			self inform: 'Open BLAST XML...' ]
+			self openQuery. 
+			self inform: 'Query opened successfully' ]

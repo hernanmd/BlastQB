@@ -1,8 +1,10 @@
 initialize
 initializeWidgets
+	" Private - See superimplementor's comment "
 
 	self initializeMainToolbar.
 	growableList := self instantiate: BlastQBGrowableList.
-	toolbar := self instantiate: OkCancelToolbar.
-	summaryText := self instantiate: TextModel.
+	self initializeBlastInformation.
+	self initializeButtonToolbar.
+	self initializeBlastSummary.
 	self focusOrder add: growableList

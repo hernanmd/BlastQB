@@ -11,7 +11,10 @@
 		"queryManager",
 		"mainToolbar",
 		"statusText",
-		"summaryText"
+		"blastSummary",
+		"blastSummaryText",
+		"blastInfoText",
+		"blastInformation"
 	],
 	"name" : "BlastQBApplicationWindow",
 	"type" : "normal"
