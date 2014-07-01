@@ -4,7 +4,6 @@ initializeWidgets
 
 	self initializeMainToolbar.
 	growableList := self instantiate: BlastQBGrowableList.
-	self initializeBlastInformation.
+	blastInfo := self instantiate: BlastInfoComponent.
 	self initializeButtonToolbar.
-	self initializeBlastSummary.
-	self focusOrder add: growableList
+	self focusOrder add: growableList.

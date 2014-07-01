@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "ComposableModel",
+	"category" : "BlastQB-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"blastSummary",
+		"blastSummaryText",
+		"blastInfoText",
+		"blastInformation"
+	],
+	"name" : "BlastInfoComponent",
+	"type" : "normal"
+}

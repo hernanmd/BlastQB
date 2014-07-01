@@ -5,7 +5,7 @@ subMenuSaveQuery: item
 		name: 'Save Query...';
 		icon: Smalltalk ui icons smallSaveIcon;
 		shortcut: $s command;
-		enabled: self hasResults;
+		enabled: self hasQuery;
 		action: [
 			self model saveQuery. 
 			self inform: 'Save' ]
