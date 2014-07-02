@@ -6,9 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"blastSummary",
-		"blastSummaryText"
+		"blastInfoText",
+		"blastInformation"
 	],
-	"name" : "BlastHeaderComponent",
+	"name" : "BlastQBInfoComponent",
 	"type" : "normal"
 }

@@ -9,7 +9,8 @@
 		"manager",
 		"blastHeader",
 		"blastInfo",
-		"blastQueryResults"
+		"blastQueryResults",
+		"blastAlignment"
 	],
 	"name" : "BlastQBTabComponent",
 	"type" : "normal"

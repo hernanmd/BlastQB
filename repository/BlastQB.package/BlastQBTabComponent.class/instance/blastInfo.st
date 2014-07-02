@@ -1,5 +1,5 @@
-initialization
+accessing
 blastInfo
 
 	^ blastInfo
-		ifNil: [ blastInfo := BlastInfoComponent new ]
+		ifNil: [ blastInfo := BlastQBInfoComponent new ]

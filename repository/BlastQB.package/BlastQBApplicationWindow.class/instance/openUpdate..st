@@ -8,3 +8,4 @@ openUpdate: fileName
 		'File date: ' -> fileName asFileReference creationTime asString .
 		'Hits: ' -> self queryManager blastHitCount asString }.
 	self blastInfo blastSummaryItems: self queryManager blastHeader lines.
+	self blastInfo blastAlignmentItems: self queryManager blastAlignment

@@ -1,5 +1,5 @@
-initialization
-blastQueryResults.
+accessing
+blastQueryResults
 
 	^ blastQueryResults
-		ifNil: [ blastQueryResults := BlastHeaderComponent new ]
+		ifNil: [ blastQueryResults := BlastQBResultsComponent new ]
