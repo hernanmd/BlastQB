@@ -1,6 +1,6 @@
 initialize
-initializeBlastSummary
-
+initializeWidgets
+	
 	blastSummaryText := self newLabel.
 	blastSummaryText text: 'Blast Header:'.
 	blastSummary := self instantiate: MultiColumnListModel.

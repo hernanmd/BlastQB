@@ -3,5 +3,6 @@ defaultSpec
 	<spec: #default>
 	
 	^ SpecLayout composed
-		newColumn: [ : c | c add: #blastInformation ]
+		newColumn: [ :c | 
+			c add: #blastSummary ]
 	
