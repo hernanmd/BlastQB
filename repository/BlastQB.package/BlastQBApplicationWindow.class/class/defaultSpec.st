@@ -8,6 +8,6 @@ defaultSpec
 				add: #mainToolbar height: self toolbarHeight;
 				add: #growableList;
 				addHSplitter;
-				add: #blastInfo;
+				add: #blastInfoTab;
 				add: #toolbar height: 26 ];
 		yourself

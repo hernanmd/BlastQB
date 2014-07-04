@@ -1,6 +1,6 @@
 private
 requestFileNameForOpen: extensionString
-	" Open request dialog to select a XML file "
+	" Open request dialog to select a file "
 	
 	^ UIManager default 
 		chooseFullFileNameMatching: (Array with: '*.' , extensionString)

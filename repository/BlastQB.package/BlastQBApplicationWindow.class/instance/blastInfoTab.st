@@ -1,0 +1,4 @@
+accessing
+blastInfoTab
+
+	^ blastInfoTab

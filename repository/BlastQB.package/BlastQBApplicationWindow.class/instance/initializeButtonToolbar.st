@@ -1,4 +1,5 @@
 initialize
 initializeButtonToolbar
-	toolbar := self instantiate: OkCancelToolbar.
-	toolbar okButton label: 'Execute'
+
+	toolbar := self instantiate: ExecToolbar.
+	toolbar okAction: [ self execute ]

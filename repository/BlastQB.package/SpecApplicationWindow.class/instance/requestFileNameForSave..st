@@ -1,6 +1,6 @@
 private
 requestFileNameForSave: extensionString
-	" Private - Request XML file name to the user "
+	" Private - Request file name to the user "
 	
 	| answer |
 	

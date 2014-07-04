@@ -2,12 +2,12 @@ accessing
 execute
 	" Private - Execute the receiver query "
 
+	self hasDataSource
+		ifFalse: [ ^ self inform: 'Please first load a Blast query XML file from the File menu' ].
+	 self hasQuery
+		ifFalse: [ ^ self inform: 'Invalid query' ].
 	self halt.
 	self queryManager enableExecution.
-"	self getCumulativeOption
-		ifFalse: [ self queryManager builder removeAllQueries.
-				self queryManager removeAllQueries. ]."
 	self collectQueries.
-	self removeAllResults.
-	self filterResults items: (self queryManager executeQuery).
-	self updateResults.
+	self blastInfoTab blastQueryResultItems: (self queryManager executeQuery).
+
