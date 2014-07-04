@@ -5,4 +5,5 @@ initializeRemoveButton
 		label: '-';
 		state: false;
 		enabled: true;
-		action: [ self owner remove: self ]
+		action: [ (self confirm: 'Are you sure you want to delete the selected query?')
+				ifTrue: [ self owner remove: self ] ]

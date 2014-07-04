@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "HernanMoralesDurand 6/26/2014 21:44",
-	"super" : "ComposableModel",
+	"super" : "SpecApplicationWindow",
 	"category" : "BlastQB-UI",
 	"classinstvars" : [ ],
 	"pools" : [ ],
@@ -10,7 +10,6 @@
 		"toolbar",
 		"queryManager",
 		"persistenceManager",
-		"mainToolbar",
 		"blastInfo"
 	],
 	"name" : "BlastQBApplicationWindow",

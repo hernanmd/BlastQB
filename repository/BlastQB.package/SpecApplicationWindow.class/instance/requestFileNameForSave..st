@@ -1,5 +1,5 @@
 private
-requestFileName: extensionString
+requestFileNameForSave: extensionString
 	" Private - Request XML file name to the user "
 	
 	| answer |
