@@ -6,7 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"blastInfoText",
 		"blastInformation"
 	],
 	"name" : "BlastQBInfoComponent",

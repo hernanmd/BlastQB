@@ -1,4 +1,4 @@
-accessing
+private
 execute
 	" Private - Execute the receiver query "
 
@@ -6,8 +6,8 @@ execute
 		ifFalse: [ ^ self inform: 'Please first load a Blast query XML file from the File menu' ].
 	 self hasQuery
 		ifFalse: [ ^ self inform: 'Invalid query' ].
-	self halt.
-	self queryManager enableExecution.
-	self collectQueries.
-	self blastInfoTab blastQueryResultItems: (self queryManager executeQuery).
+	self queryManager 
+		enableExecution;
+		queries: self collectQueries.
+	self showResults.
 

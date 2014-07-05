@@ -6,8 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"blastSummary",
-		"blastSummaryText"
+		"blastSummary"
 	],
 	"name" : "BlastQBHeaderComponent",
 	"type" : "normal"

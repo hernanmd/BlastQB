@@ -4,5 +4,6 @@ executeQuery
 
 	(self canExecute and: [ self validSelectedNodes ])
 		ifTrue: [ 
-			self execute.
-			self parseSelections: self selectedNodes ]
+			self buildQueries.
+			self parseSelections: self selectedNodes.
+			^ self parseResults last ]

@@ -1,11 +1,15 @@
 {
-	"commentStamp" : "",
-	"super" : "Object",
+	"commentStamp" : "HernanMoralesDurand 7/5/2014 03:34",
+	"super" : "ComposableModel",
 	"category" : "BlastQB-UI",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"blastResults",
+		"blastGenBankButton",
+		"blastFastaButton"
+	],
 	"name" : "BlastQBResultsComponent",
 	"type" : "normal"
 }
