@@ -1,15 +1,14 @@
 private
 showResults
 
-	| rsMatrix blastFilter |
+	| rsMatrix currentBlastFilter filterNumber filterRatio |
 	
-	blastFilter := self queryManager executeQuery.
-	rsMatrix := (DhbMatrix rows: blastFilter size columns: 4)
-		atColumn: 1 put: (1 to: blastFilter size) asArray;
-		atColumn: 2 put: blastFilter selectHspAlignLengths;
-		atColumn: 4 put: blastFilter selectHspMidLines;		
-		atColumn: 3 put: blastFilter selectHitDefinitions;	
-		yourself.
+	(currentBlastFilter := self queryManager executeQuery) = self blastFilter
+		ifTrue: [ ^ self inform: 'Results not modified' ].
+	self blastFilter: currentBlastFilter.
+	rsMatrix := self buildResults.
+	filterNumber := self blastFilter filtersCount.
+	filterRatio := self blastFilter size asString , '/'  , self queryManager blastHitCount asString.
 	self blastInfoTab 
-		addResultsTab;
+		addResultsTab:  filterNumber asString size: filterRatio;
 		blastQueryResultItems: rsMatrix rows.

@@ -8,7 +8,9 @@
 	"instvars" : [
 		"blastResults",
 		"blastGenBankButton",
-		"blastFastaButton"
+		"blastFastaButton",
+		"blastMergeButton",
+		"blastColumnsButton"
 	],
 	"name" : "BlastQBResultsComponent",
 	"type" : "normal"

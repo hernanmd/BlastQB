@@ -9,7 +9,8 @@
 		"growableList",
 		"toolbar",
 		"queryManager",
-		"blastInfoTab"
+		"blastInfoTab",
+		"blastFilter"
 	],
 	"name" : "BlastQBApplicationWindow",
 	"type" : "normal"
