@@ -1,11 +1,9 @@
 private
 showResults
 
-	| rsMatrix currentBlastFilter filterNumber filterRatio |
+	| rsMatrix  filterNumber filterRatio |
 	
-	(currentBlastFilter := self queryManager executeQuery) = self blastFilter
-		ifTrue: [ ^ self inform: 'Results not modified' ].
-	self blastFilter: currentBlastFilter.
+	self prepareNewQuery ifFalse: [ ^ self ].
 	rsMatrix := self buildResults.
 	filterNumber := self blastFilter filtersCount.
 	filterRatio := self blastFilter size asString , '/'  , self queryManager blastHitCount asString.

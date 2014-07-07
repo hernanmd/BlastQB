@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "HernanMoralesDurand 6/27/2014 02:32",
-	"super" : "TripletSearchBox",
+	"super" : "QBSearchBox",
 	"category" : "BlastQB-Spec",
 	"classinstvars" : [ ],
 	"pools" : [ ],

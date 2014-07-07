@@ -6,8 +6,10 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"mainToolbar"
+		"mainToolbar",
+		"growableList",
+		"toolbar"
 	],
-	"name" : "SpecApplicationWindow",
+	"name" : "SpecQBApplicationWindow",
 	"type" : "normal"
 }
