@@ -7,6 +7,4 @@ showResults
 	rsMatrix := self buildResults.
 	filterNumber := self blastFilter filtersCount.
 	filterRatio := self blastFilter size asString , '/'  , self queryManager blastHitCount asString.
-	self blastInfoTab 
-		addResultsTab:  filterNumber asString size: filterRatio;
-		blastQueryResultItems: rsMatrix rows.
+	self blastInfoTab addResultsTab:  filterNumber asString size: filterRatio contents: rsMatrix rows
