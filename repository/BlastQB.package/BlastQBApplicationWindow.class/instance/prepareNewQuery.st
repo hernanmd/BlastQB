@@ -4,7 +4,7 @@ prepareNewQuery
 
 	| currentBlastFilter |
 	
-	self queryManager hasNewQuery
+	self hasNewQuery
 		ifFalse: [ self inform: 'Query not modified'.
 			^ false ].
 	(currentBlastFilter := self queryManager executeQuery) = self blastFilter
