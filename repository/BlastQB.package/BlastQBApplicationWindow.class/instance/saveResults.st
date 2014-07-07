@@ -5,4 +5,4 @@ saveResults
 	(self requestFileNameForSave: 'brs') ifNotNilDo: [: filename | 
 		Cursor write showWhile: [ 
 			(BioSerializationEngine for: filename) serialize: self queryManager results].
-		self inform: 'Blast results saved in file: ' translated , filename ].
+		self inform: 'Blast results saved in file: ' , filename ].
