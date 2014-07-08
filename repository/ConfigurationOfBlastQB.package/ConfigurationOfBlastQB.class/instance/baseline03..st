@@ -9,7 +9,7 @@ baseline03: spec
 			project: 'QueryBuilder' with: [
 				spec
 					className: #ConfigurationOfQueryBuilder;
-					versionString: #'stable';
+					versionString: #'development';
 					repository: 'http://smalltalkhub.com/mc/hernan/QueryBuilder/main/' ];
 			project: 'BioSmalltalk' with: [
 				spec
