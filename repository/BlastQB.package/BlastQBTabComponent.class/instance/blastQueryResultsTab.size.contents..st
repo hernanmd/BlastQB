@@ -6,5 +6,7 @@ blastQueryResultsTab: rsNumber size: rsSize contents: aCollection
 	tab
 		label: '(' , rsNumber , ') ' , rsSize;
 		icon: Smalltalk ui icons nautilusIcon;
-		model: (BlastQBResultsComponent new blastQueryResultItems: aCollection).
+		model: (BlastQBResultsComponent new 
+					owner: self;
+					blastQueryResultItems: aCollection).
 	^ tab
