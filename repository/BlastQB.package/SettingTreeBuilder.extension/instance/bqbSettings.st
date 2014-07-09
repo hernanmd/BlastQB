@@ -1,0 +1,4 @@
+*BlastQB
+bqbSettings
+
+	^ self systemsettings

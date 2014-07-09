@@ -1,5 +1,5 @@
 menu
-subMenu 
+subMenuForFile 
 
 	^ MenuModel new
 		addGroup: [ :group |
