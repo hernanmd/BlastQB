@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 7/10/2014 21:02",
+	"super" : "CustomHelp",
+	"category" : "BlastQB-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PCTBlastQueryBuilderHelp",
+	"type" : "normal"
+}

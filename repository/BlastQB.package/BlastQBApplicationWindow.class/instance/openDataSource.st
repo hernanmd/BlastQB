@@ -6,4 +6,5 @@ openDataSource
 		(BioObject openFullFileNamed: fileName)
 			ifNotNilDo: [ : fileStream | 	
 				self queryManager addBlast: fileStream.
-				self openUpdate: fileName ] ].
+				self openUpdate: fileName.
+				self inform: 'BLAST XML opened successfully' ] ].
