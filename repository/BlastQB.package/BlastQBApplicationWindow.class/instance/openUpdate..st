@@ -8,4 +8,7 @@ openUpdate: fileName
 		'File date: ' -> fileName asFileReference creationTime asString .
 		'Hits: ' -> self queryManager blastHitCount asString }.
 	self blastInfoTab blastSummaryItems: self queryManager blastHeader lines.
-	self blastInfoTab blastAlignmentItems: self queryManager blastAlignment
+
+	BlastQBSettings showAlignmentOnOpening
+		ifTrue: [ self blastInfoTab blastAlignmentItems: self queryManager blastAlignment ].
+		
