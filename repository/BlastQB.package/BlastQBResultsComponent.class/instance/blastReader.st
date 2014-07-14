@@ -1,6 +1,6 @@
 initialization
 blastReader
 
-	^ self owner blastReader inspect
+	^ self owner blastReader
 
 
