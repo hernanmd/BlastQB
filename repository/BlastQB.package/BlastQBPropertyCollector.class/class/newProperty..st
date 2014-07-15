@@ -6,4 +6,5 @@ newProperty: row
 		displayName: row first;
 		explanation: row second;
 		name: row third;
-		type: row fourth
+		type: row fourth;
+		propertySelector: row fifth asSymbol
