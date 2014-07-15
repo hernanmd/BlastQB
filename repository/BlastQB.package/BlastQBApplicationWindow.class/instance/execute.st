@@ -7,7 +7,10 @@ execute
 	 self hasQuery
 		ifFalse: [ ^ self inform: 'Invalid query' ].
 	self queryManager 
-		enableExecution;
+		prepareExecution;
 		queries: self collectQueries.
-	self showResults.
+	self hasNewQuery
+		ifTrue: [ self executeNewQuery ]
+		ifFalse: [ self inform: 'Query not modified' ].
+
 
