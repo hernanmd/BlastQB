@@ -6,7 +6,7 @@ HIT LENGTH;Length of subject;Hit_len;SmallInteger;selectHitLengths
 HIT DEFINITION;Definition line of subject:  A definition is a mandatory description of the origin and function of a sequence, and is typically found in FASTA descriptions. Although the string line is structured, it does not use a controlled vocabulary. In the BlastOutput XML file it matches with the Hit_def node. Example: H.sapiens CDK2 mRNA.;Hit_def;String;selectHitDefinitions
 NUMBER OF IDENTITIES IN HSP;A HSP is a High Score Segment Pair. This property specify the number of identities in HSP;Hsp_identity;SmallInteger;selectHspIdentities
 NUMBER OF POSITIVES IN HSP;A HSP is a High Score Segment Pair. This property specify the number of positive (conservative) substitutions in the alignment;Hsp_positive;SmallInteger;selectHspPositives
-E-VALUE OF HSP;A HSP is a High Score Segment Pair. This numeric property specify the e-value of HSP;Hsp_evalue;FixedDecimal;shouldBeImplemented
+E-VALUE OF HSP;A HSP is a High Score Segment Pair. This numeric property specify the e-value of HSP;Hsp_evalue;FixedDecimal;selectHspEValues
 SCORE BITS OF HSP;score (in bits) of HSP;Hsp_bit-score;FixedDecimal;selectHitScores
 SCORE OF HSP;score of HSP;Hsp_score;FixedDecimal;selectHspScores
 NUMBER OF START OF HSP IN QUERY;A HSP is a High Score Segment Pair. This property specify the offset (number) of query at the start of the alignment (one-offset);Hsp_query-from;SmallInteger;shouldBeImplemented

@@ -1,3 +1,3 @@
 accessing
 selectedNodes: anObject
-	selectedNodes := anObject
+	^ selectedNodes := anObject
