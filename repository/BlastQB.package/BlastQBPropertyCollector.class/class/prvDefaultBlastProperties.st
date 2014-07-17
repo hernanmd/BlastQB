@@ -13,7 +13,7 @@ NUMBER OF START OF HSP IN QUERY;A HSP is a High Score Segment Pair. This propert
 NUMBER OF END OF HSP IN QUERY;A HSP is a High Score Segment Pair. This numeric property specify the end of HSP;Hsp_query-to;SmallInteger;shouldBeImplemented
 NUMBER OF START OF HSP IN SUBJECT;A HSP is a High Score Segment Pair. This property specify the offset (number) of database sequence at the start of the alignment (one-offset), i.e. start of HSP in subject;Hsp_hit-from;SmallInteger;shouldBeImplemented
 NUMBER OF END OF HSP IN SUBJECT;A HSP is a High Score Segment Pair. This numeric property specify the end of HSP in subject;Hsp_hit-to;SmallInteger;shouldBeImplemented
-NUMBER OF SCORE DENSITY;A HSP is a High Score Segment Pair. This numeric property specify the score density;Hsp_density;SmallInteger;shouldBeImplemented
+NUMBER OF SCORE DENSITY;A HSP is a High Score Segment Pair. This numeric property specify the score density;Hsp_density;SmallInteger;selectHspScoreDensities
 NUMBER OF TRANSLATION FRAME OF QUERY;The filter selects translation frame of query;Hsp_query-frame;SmallInteger;shouldBeImplemented
 NUMBER OF TRANSLATION FRAME OF SUBJECT;tThe filter selects ranslation frame of subject;Hsp_hit-frame;SmallInteger;shouldBeImplemented
 NUMBER OF GAPS IN HSP;A HSP is a High Score Segment Pair. The filter selects the number of gaps in HSP;Hsp_gaps;SmallInteger;shouldBeImplemented
