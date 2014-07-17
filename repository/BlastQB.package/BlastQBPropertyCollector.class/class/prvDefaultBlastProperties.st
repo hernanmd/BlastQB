@@ -7,16 +7,16 @@ HIT DEFINITION;Definition line of subject:  A definition is a mandatory descript
 NUMBER OF IDENTITIES IN HSP;A HSP is a High Score Segment Pair. This property specify the number of identities in HSP;Hsp_identity;SmallInteger;selectHspIdentities
 NUMBER OF POSITIVES IN HSP;A HSP is a High Score Segment Pair. This property specify the number of positive (conservative) substitutions in the alignment;Hsp_positive;SmallInteger;selectHspPositives
 E-VALUE OF HSP;A HSP is a High Score Segment Pair. This numeric property specify the e-value of HSP;Hsp_evalue;FixedDecimal;selectHspEValues
-SCORE BITS OF HSP;score (in bits) of HSP;Hsp_bit-score;FixedDecimal;selectHitScores
-SCORE OF HSP;score of HSP;Hsp_score;FixedDecimal;selectHspScores
+SCORE BITS OF HSP;Score (in bits) of HSP;Hsp_bit-score;FixedDecimal;selectHitScores
+SCORE OF HSP;Score of HSP;Hsp_score;FixedDecimal;selectHspScores
 NUMBER OF START OF HSP IN QUERY;A HSP is a High Score Segment Pair. This property specify the offset (number) of query at the start of the alignment (one-offset);Hsp_query-from;SmallInteger;shouldBeImplemented
 NUMBER OF END OF HSP IN QUERY;A HSP is a High Score Segment Pair. This numeric property specify the end of HSP;Hsp_query-to;SmallInteger;shouldBeImplemented
 NUMBER OF START OF HSP IN SUBJECT;A HSP is a High Score Segment Pair. This property specify the offset (number) of database sequence at the start of the alignment (one-offset), i.e. start of HSP in subject;Hsp_hit-from;SmallInteger;shouldBeImplemented
 NUMBER OF END OF HSP IN SUBJECT;A HSP is a High Score Segment Pair. This numeric property specify the end of HSP in subject;Hsp_hit-to;SmallInteger;shouldBeImplemented
 NUMBER OF SCORE DENSITY;A HSP is a High Score Segment Pair. This numeric property specify the score density;Hsp_density;SmallInteger;selectHspScoreDensities
-NUMBER OF TRANSLATION FRAME OF QUERY;The filter selects translation frame of query;Hsp_query-frame;SmallInteger;shouldBeImplemented
-NUMBER OF TRANSLATION FRAME OF SUBJECT;tThe filter selects ranslation frame of subject;Hsp_hit-frame;SmallInteger;shouldBeImplemented
-NUMBER OF GAPS IN HSP;A HSP is a High Score Segment Pair. The filter selects the number of gaps in HSP;Hsp_gaps;SmallInteger;shouldBeImplemented
-ALIGNMENT STRING FOR THE QUERY (WITH GAPS);The filter selects alignment string for the query (with gaps);Hsp_qseq;String;shouldBeImplemented
-ALIGNMENT STRING FOR SUBJECT (WITH GAPS);The filter selects alignment string for subject (with gaps);Hsp_hseq;String;shouldBeImplemented
-PERCENTAGE OF IDENTITY;The filter selectes alignments calculating a % (( ident / align * 100.0 roundTo: 0.1 ) > aPercentageFloat) were identities are aligned up to aPercentageFloat;shouldBeImplemented;FixedDecimal;shouldBeImplemented'
+NUMBER OF TRANSLATION FRAME OF QUERY;Translation frame of query;Hsp_query-frame;SmallInteger;shouldBeImplemented
+NUMBER OF TRANSLATION FRAME OF SUBJECT;Translation frame of subject;Hsp_hit-frame;SmallInteger;shouldBeImplemented
+NUMBER OF GAPS IN HSP;A HSP is a High Score Segment Pair. Number of gaps in HSP;Hsp_gaps;SmallInteger;shouldBeImplemented
+ALIGNMENT STRING FOR THE QUERY (WITH GAPS);Alignment string for the query (with gaps);Hsp_qseq;String;shouldBeImplemented
+ALIGNMENT STRING FOR SUBJECT (WITH GAPS);Alignment string for subject (with gaps);Hsp_hseq;String;shouldBeImplemented
+PERCENTAGE OF IDENTITY;Alignments calculating a % (( ident / align * 100.0 roundTo: 0.1 ) > aPercentageFloat) were identities are aligned up to aPercentageFloat;shouldBeImplemented;FixedDecimal;shouldBeImplemented'
