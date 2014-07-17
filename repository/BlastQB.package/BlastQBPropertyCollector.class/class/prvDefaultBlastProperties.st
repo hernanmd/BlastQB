@@ -19,4 +19,4 @@ NUMBER OF TRANSLATION FRAME OF SUBJECT;Translation frame of subject;Hsp_hit-fram
 NUMBER OF GAPS IN HSP;A HSP is a High Score Segment Pair. Number of gaps in HSP;Hsp_gaps;SmallInteger;shouldBeImplemented
 ALIGNMENT STRING FOR THE QUERY (WITH GAPS);Alignment string for the query (with gaps);Hsp_qseq;String;shouldBeImplemented
 ALIGNMENT STRING FOR SUBJECT (WITH GAPS);Alignment string for subject (with gaps);Hsp_hseq;String;shouldBeImplemented
-PERCENTAGE OF IDENTITY;Alignments calculating a % (( ident / align * 100.0 roundTo: 0.1 ) > aPercentageFloat) were identities are aligned up to aPercentageFloat;shouldBeImplemented;FixedDecimal;shouldBeImplemented'
+PERCENTAGE OF IDENTITY;Alignments calculating a % (( ident / align * 100.0 roundTo: 0.1 ) > aPercentageFloat) were identities are aligned up to aPercentageFloat;percentIdentityOverAlignment:cmpSelector:;FixedDecimal;shouldBeImplemented'
