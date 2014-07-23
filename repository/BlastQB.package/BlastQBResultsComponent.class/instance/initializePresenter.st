@@ -5,9 +5,7 @@ initializePresenter
 		action: [ (self confirm: 'Download GenBank records for current filter?')
 				ifTrue: [ 
 					self openTranscript.
-					PCTGenBankRecordsBrowser new 
-						genBankRecords: self blastReader downloadGenBankRecords;
-						openWithSpec ] ] 
+					self openGenBankBrowser ] ] 
 
 
 
