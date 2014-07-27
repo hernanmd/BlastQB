@@ -1,4 +1,4 @@
 accessing
 blastQueryResultItems: aCollection
 
-	self blastResults items: aCollection
+	self blastResults listItems addAll: aCollection

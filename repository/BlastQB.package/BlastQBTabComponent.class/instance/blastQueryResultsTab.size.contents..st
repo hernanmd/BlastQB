@@ -8,5 +8,6 @@ blastQueryResultsTab: rsNumber size: rsSize contents: aCollection
 		icon: Smalltalk ui icons nautilusIcon;
 		model: (BlastQBResultsComponent new 
 					owner: self;
-					blastQueryResultItems: aCollection).
+					blastQueryResultItems: aCollection;
+					header: self selectedNodes).
 	^ tab
