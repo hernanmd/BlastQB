@@ -22,4 +22,4 @@ baseline04: spec
 					versionString: #'bleedingEdge';
 					repository: 'http://smalltalkhub.com/mc/hernan/SpecUIAddOns/main/' ].
 		spec package: #BlastQB with: [
-				spec requires: #('BioSmalltalk' 'QueryBuilder' ). ]. ].
+				spec requires: #('BioSmalltalk' 'QueryBuilder' 'SpecUIAddOns' ). ]. ].
