@@ -9,6 +9,8 @@ openUpdate: fileName
 		'Hits: ' -> self queryManager blastHitCount asString }.
 	self blastInfoTab blastSummaryItems: self queryManager blastHeader lines.
 
+	" Clean the Alignment tab "
+	self blastInfoTab blastAlignmentItems: Array new.
 	BlastQBSettings showAlignmentOnOpening
 		ifTrue: [ self blastInfoTab blastAlignmentItems: self queryManager blastAlignment ].
 		

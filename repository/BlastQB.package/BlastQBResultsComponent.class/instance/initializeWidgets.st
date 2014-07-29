@@ -7,6 +7,7 @@ initializeWidgets
 	blastColumnsButton := self newButton label: 'Columns...'.
 	blastResults := self instantiate: MultiColumnListModelWithHeader.
 	blastResults 
+		beNumbered;
 		beMultipleSelection;
 		displayBlock: [ :e | e collect: #asString ]
 
