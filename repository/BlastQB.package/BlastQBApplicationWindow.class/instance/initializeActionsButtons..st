@@ -1,4 +1,4 @@
-initialize
+initialization
 initializeActionsButtons: group
 
 	group

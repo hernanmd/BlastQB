@@ -1,4 +1,4 @@
-initialize
+initialization
 initializeWidgets
 	" Private - See superimplementor's comment "
 

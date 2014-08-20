@@ -1,4 +1,4 @@
-initialize
+initialization
 initializeMainToolbar
 
 	mainToolbar := MenuModel new

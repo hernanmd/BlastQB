@@ -1,4 +1,4 @@
-initialize
+initialization
 initializeToolsSubMenu: group
 
 	group
