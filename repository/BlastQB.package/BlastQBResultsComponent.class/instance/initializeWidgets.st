@@ -4,7 +4,7 @@ initializeWidgets
 	blastGenBankButton := self newButton label: 'GenBank Records'.
 	blastFastaButton := self newButton label: 'Fasta Export'.
 	blastMergeButton := self newButton label: 'Merge...'.
-	blastColumnsButton := self newButton label: 'Columns...'.
+	blastSaveResultsButton := self newButton label: 'Save...'.
 	blastResults := self instantiate: MultiColumnListModelWithHeader.
 	blastResults 
 		beNumbered;
