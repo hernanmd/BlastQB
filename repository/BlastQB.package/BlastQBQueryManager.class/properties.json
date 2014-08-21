@@ -8,7 +8,8 @@
 	"instvars" : [
 		"blastCollection",
 		"blastReader",
-		"selectedNodes"
+		"selectedNodes",
+		"username"
 	],
 	"name" : "BlastQBQueryManager",
 	"type" : "normal"
