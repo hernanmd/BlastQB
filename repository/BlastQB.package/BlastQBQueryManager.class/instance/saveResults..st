@@ -1,4 +1,4 @@
 accessing
-saveResults: aCollection 
+saveResults: anObject 
 
-	self project addBlastResults: aCollection.
+	self project addBlastResults: anObject.
