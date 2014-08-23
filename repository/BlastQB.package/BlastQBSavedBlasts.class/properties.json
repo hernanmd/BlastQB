@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "HernanMoralesDurand 8/23/2014 13:42",
+	"super" : "SpecToolbarApplicationWindow",
+	"category" : "BlastQB-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"blastList",
+		"blastDetails"
+	],
+	"name" : "BlastQBSavedBlasts",
+	"type" : "normal"
+}
