@@ -1,11 +1,14 @@
 initialization
 initializeWidgets
 
-	self instantiateModels: #(blastList MultiColumnListModelWithHeader blastDetails  MultiColumnListModelWithHeader toolbar OkCancelToolbar).
+	self instantiateModels: #(blastList MultiColumnListModelWithHeader blastDetails  MultiColumnListModel toolbar OkCancelToolbar).
 	
 	self blastList 
-		addHeader: #('Date' 'Hits');
-		displayBlock: [ :e | { e date asString . e size asString } ];
-		items: self savedBlasts.
-
-	
+		items: self savedBlasts;
+		displayBlock: [ : e | e displayString ];
+		" See MultiColumnListModelWithHeader class comment for details "
+		addHeader: #('Date' 'Hits').
+		
+	self blastDetails
+		displayBlock: [ : e | e collect: #asString ]
+"		addHeader: { self selectedFeature asString }."
