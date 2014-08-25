@@ -6,6 +6,7 @@ initializeWidgets
 	self blastList 
 		items: self savedBlasts;
 		displayBlock: [ : e | e displayString ];
+		menu: [: menu : shifted | self blastListFilterMenu: menu shifted: shifted ];
 		" See MultiColumnListModelWithHeader class comment for details "
 		addHeader: #('Date' 'Hits').
 		

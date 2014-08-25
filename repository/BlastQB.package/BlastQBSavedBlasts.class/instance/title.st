@@ -1,4 +1,4 @@
 accessing
 title
 
-	^ 'Saved Blast Filters'
+	^ 'Saved Blast Filters on: ' , self project name

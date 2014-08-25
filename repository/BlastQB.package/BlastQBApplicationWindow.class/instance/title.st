@@ -1,4 +1,4 @@
 protocol
 title
 
-	^ 'Blast Query Builder'
+	^ 'Blast Query Builder on: ' , self project name
