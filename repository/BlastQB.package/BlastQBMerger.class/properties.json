@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "HernanMoralesDurand 8/25/2014 14:41",
+	"super" : "BlastQBSavedBlasts",
+	"category" : "BlastQB-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"blastFilterResult"
+	],
+	"name" : "BlastQBMerger",
+	"type" : "normal"
+}

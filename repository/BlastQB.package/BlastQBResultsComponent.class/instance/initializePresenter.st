@@ -13,7 +13,7 @@ initializePresenter
 	blastMergeButton
 		help: 'Combine your BLAST filtered hits with previously saved searches in your current project'; 
 		shortcut: $m command;
-		action: [ self mergeResults ].
+		action: [ self openBlastMerger ].
 	blastSaveResultsButton
 		help: 'Save the current hits into project repository';
 		shortcut: $s command;

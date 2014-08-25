@@ -1,4 +1,5 @@
 accessing
 saveResults
-
-	self saveResults: self parseResults last
+	" Save the currently selected filter to persistent storage "
+	
+	self saveResults: self selectedFilter

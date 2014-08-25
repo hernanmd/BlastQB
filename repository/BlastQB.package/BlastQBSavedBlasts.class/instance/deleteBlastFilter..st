@@ -1,4 +1,4 @@
-private
+menu actions
 deleteBlastFilter: selectedBlastFilter
 	" Private - Delete the selected blast filter from the receiver "
 	
