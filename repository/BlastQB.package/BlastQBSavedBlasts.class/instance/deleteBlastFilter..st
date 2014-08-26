@@ -5,8 +5,8 @@ deleteBlastFilter: selectedBlastFilter
 	(self confirm: 'You are about to delete the selected filter, this action cannot be undone. 
 Are you sure?')
 		ifTrue: [
-			self savedBlasts remove: selectedBlastFilter.
-			self blastList remove: selectedBlastFilter.
+			self savedBlasts remove: selectedBlastFilter content.
+"			self blastList listItems remove: selectedBlastFilter content."
 			self project updateProject ]
 
 
