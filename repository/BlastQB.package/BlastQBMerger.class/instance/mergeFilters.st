@@ -2,7 +2,7 @@ actions
 mergeFilters
 	" Private - Callback for Merge button "
 
-	self selectedFilter notNil
+	self blastList selectedItem notNil
 		ifTrue: [ 
 			(self confirm: 'Merge the selected Blast Query Builder filter with the Saved Blast filter selection?')
 				ifTrue: [ self selectedFilter merge: self blastFilterResult ] ]
