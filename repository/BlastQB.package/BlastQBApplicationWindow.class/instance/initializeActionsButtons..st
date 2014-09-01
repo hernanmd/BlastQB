@@ -1,7 +1,7 @@
 initialization
 initializeActionsButtons: group
 
-	group
+"	group
 		addItem: [ :item | 
 			item
 				name: nil;
@@ -14,4 +14,5 @@ initializeActionsButtons: group
 				name: nil;
 				description: 'Redo';
 				icon: Smalltalk ui icons smallRedoIcon;
-				action: [ self inform: 'Redo' ] ]
+				action: [ self inform: 'Redo' ] ] "
+			

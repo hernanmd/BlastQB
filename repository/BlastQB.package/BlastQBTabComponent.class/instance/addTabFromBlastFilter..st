@@ -9,3 +9,4 @@ addTabFromBlastFilter: blastFilter
 		contents: (self buildResults: blastFilter).
 	self manager addTab: newTab.
 	self manager selectTab: newTab.
+	newTab selected: true.

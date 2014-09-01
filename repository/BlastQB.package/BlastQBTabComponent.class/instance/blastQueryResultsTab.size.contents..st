@@ -10,4 +10,7 @@ blastQueryResultsTab: rsNumber size: rsSize contents: aCollection
 					owner: self;
 					blastQueryResultItems: aCollection;
 					header: self selectedNodes).
+	" self needsWork "
+	tab whenWindowChanged: [ :w | 
+		w whenClosedDo: [ self halt ] ].
 	^ tab
