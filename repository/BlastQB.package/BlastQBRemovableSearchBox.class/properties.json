@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "HernanMoralesDurand 6/27/2014 02:48",
 	"super" : "BlastQBSearchBox",
-	"category" : "BlastQB-Spec",
+	"category" : "BlastQB-UI",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
