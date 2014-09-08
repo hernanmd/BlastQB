@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "QBGrowableList",
-	"category" : "BlastQB-UI",
+	"category" : "BlastQB-Spec",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
