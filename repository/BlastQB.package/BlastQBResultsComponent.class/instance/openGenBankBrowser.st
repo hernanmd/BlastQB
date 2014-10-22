@@ -2,7 +2,7 @@ private
 openGenBankBrowser
 
 	self blastReader nextReader parser: (Smalltalk at: #PCTGenBankOptions) parserProfileOption.
-	(Smalltalk at: #PCTGenBankRecordsBrowser) new 
+	(Smalltalk at: #PCTGenBankBrowserApplicationWindow) new 
 		genBankRecords: self blastReader downloadGenBankRecords;
 		openWithSpec
 
