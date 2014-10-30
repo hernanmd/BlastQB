@@ -1,0 +1,4 @@
+accessing
+saveBehaviors
+
+	^ { BioNCBIGenBankBatchReader . BioNCBIGenBankUIReader } 
