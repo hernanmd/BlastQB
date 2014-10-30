@@ -10,7 +10,7 @@ execute
 		prepareExecution;
 		queries: self collectQueries.
 	self queryManager hasValidQuery
-		ifFalse: [ ^ self inform: 'Invalid query: Incorrect number of arguments' ].
+		ifFalse: [ ^ self inform: 'Invalid query: Incorrect number of arguments or invalid arguments for selected comparison operator' ].
 	self hasNewQuery
 		ifTrue: [ self executeNewQuery ]
 		ifFalse: [ self inform: 'Query not modified' ].
