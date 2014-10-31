@@ -2,4 +2,4 @@ accessing
 useInteractiveDownloader
 
 	^ UseInteractiveDownloader
-		ifNil: [ UseInteractiveDownloader := self saveBehaviors ]
+		ifNil: [ UseInteractiveDownloader := self defaultSaveBehavior ]

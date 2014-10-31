@@ -1,4 +1,5 @@
 accessing
 saveBehaviors
+	" Answer a <Collection> of classes able to save and read GenBank records "
 
-	^ { BioNCBIGenBankBatchReader . BioNCBIGenBankUIReader } 
+	^ BioNCBIGenBankReader allSubclasses "{ PCTGenBankBatchReader . BioNCBIGenBankUIReader } "
