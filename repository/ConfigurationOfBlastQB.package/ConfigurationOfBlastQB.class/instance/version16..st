@@ -8,6 +8,6 @@ version16: spec
 		spec author: 'HernanMoralesDurand'.
 		spec timestamp: '6/30/2014 14:57'.
 		spec 
-			project: 'QueryBuilder' with: '1.1';
+			project: 'QueryBuilder' with: '1.0';
 			project: 'BioSmalltalk' with: '0.1-baseline'.
 		spec package: #BlastQB with: 'BlastQB-HernanMoralesDurand.7'. ].
