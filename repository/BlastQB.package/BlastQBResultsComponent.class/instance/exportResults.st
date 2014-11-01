@@ -1,5 +1,5 @@
-initialization
-saveFastaFile
+callbacks
+exportResults
 
 	(self requestFileNameForSave: (BioFileFormat fileExtensionFor: 'FASTA'))
 		 ifNotNilDo: [: filename | 

@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "HernanMoralesDurand 7/5/2014 03:34",
-	"super" : "ComposableModel",
+	"super" : "BlastQBComposableModel",
 	"category" : "BlastQB-Tabs",
 	"classinstvars" : [ ],
 	"pools" : [ ],
@@ -8,9 +8,9 @@
 	"instvars" : [
 		"blastResults",
 		"blastGenBankButton",
-		"blastFastaButton",
 		"blastMergeButton",
-		"blastSaveResultsButton"
+		"blastSaveResultsButton",
+		"blastExportButton"
 	],
 	"name" : "BlastQBResultsComponent",
 	"type" : "normal"

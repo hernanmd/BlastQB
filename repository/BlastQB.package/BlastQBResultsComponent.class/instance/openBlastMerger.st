@@ -1,4 +1,4 @@
-accessing
+callbacks
 openBlastMerger
 	" Open a UI to merge receiver's contents "
 

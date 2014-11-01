@@ -1,4 +1,4 @@
-initialization
+accessing
 blastReader
 
 	^ self owner blastReader

@@ -1,4 +1,7 @@
 accessing
 defaultSaveBehavior
+	" Answer a <Class> responsible for the save actions of query builder results "
 
-	^ PCTGenBankBatchReader
+	^ Smalltalk 
+		at: #PCTGenBankBatchReader 
+		ifAbsent: [ BioNCBIGenBankUIReader ]

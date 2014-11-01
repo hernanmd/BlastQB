@@ -7,7 +7,7 @@ initializeFileToolbarButtons: group
 				description: 'Open BLAST XML';
 				icon: Smalltalk ui icons openIcon;
 				action: [ self openDataSource ] ].
-	group
+"	group
 		addItem: [ : item | 
 			item
 				description: 'Save results...';
@@ -16,4 +16,4 @@ initializeFileToolbarButtons: group
 				action: [ 
 					self saveResults.
 					self setSavedResults. 					
-					self inform: 'Results saved in file ' ] ]
+					self inform: 'Results saved in file ' ] ]"
