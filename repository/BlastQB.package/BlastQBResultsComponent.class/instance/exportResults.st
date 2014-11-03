@@ -1,13 +1,7 @@
 callbacks
 exportResults
+	" Private - Select and export the receiver's results in a file format "
 
-	(self requestFileNameForSave: (BioFileFormat fileExtensionFor: 'FASTA'))
-		 ifNotNilDo: [: filename | 
-			Cursor write showWhile: [ 
-				(BioFileFormatter formatterFor: 'FASTA') 
-					outputFilename: filename;
-					exportFrom: self collectHits ].
-			self inform: 'FASTA results saved in file: ' , filename ] 
-
+	self exportResultsInFormat: self selectFormat.
 
 
