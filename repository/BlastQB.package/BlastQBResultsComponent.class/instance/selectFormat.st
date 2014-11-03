@@ -3,7 +3,7 @@ selectFormat
 	" Private - Open a window to select export format "
 	
 	(SpecFormatSelectorModel owner: self) 
-		items: #('CSV' 'FASTA');
+		formats: #('CSV' 'FASTA');
 		openWithSpec;
 		centered.
 
