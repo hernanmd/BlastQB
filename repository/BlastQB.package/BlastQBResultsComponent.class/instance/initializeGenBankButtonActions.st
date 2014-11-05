@@ -1,10 +1,10 @@
 initialization
 initializeGenBankButtonActions
+	" Private - Set the download GenBank button callback "
 
 	blastGenBankButton
 			help: 'Connect and download GenBank records for current filtered hits';
 			shortcut: $g command;
-			action: [ (self confirm: 'Download GenBank records for current filter?')
-					ifTrue: [ self openGenBankBrowser ] ]
-
-
+			action: [ 
+				(self confirm: 'Download GenBank records for current filter?')
+					ifTrue: [ self openGenBankBrowserTool ] ]

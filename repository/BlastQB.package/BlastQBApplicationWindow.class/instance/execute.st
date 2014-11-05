@@ -2,7 +2,6 @@ private
 execute
 	" Private - Execute the receiver query "
 
-	self halt.
 	self hasDataSource
 		ifFalse: [ ^ self inform: 'Please first load a Blast query XML file from the File menu' ].
 	 self hasQuery

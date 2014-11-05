@@ -2,10 +2,16 @@ accessing
 exportToFile: filename formatName: fileFormatName
 	" Do the export to filename "
 
-	Cursor write showWhile: [ 
-		fileFormatName = 'CSV'
-			ifTrue: [ 
-				 ((BioFileFormatter formatterFor: fileFormatName) 
+	Cursor write showWhile: [ | formatter |
+		formatter := (BioFileFormatter formatterFor: fileFormatName) 
 					outputFilename: filename;
+					yourself.
+		fileFormatName = 'CSV'
+			ifTrue: [ formatter
 					exportFrom: self blastQueryResultItems allButFirst;
-					yourself) ] ]
+					yourself ].
+		fileFormatName = 'FASTA'
+			ifTrue: [ formatter 
+					exportFrom: self blastQueryResultItems allButFirst;
+					yourself ] ]
+			
