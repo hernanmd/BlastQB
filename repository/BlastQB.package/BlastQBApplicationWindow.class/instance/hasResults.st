@@ -1,5 +1,5 @@
 testing
 hasResults
-	" Answer <true> if receiver has a valid query "
+	" Answer <true> if receiver has results "
 	
-	^ false
+	^ self queryManager hasResults
