@@ -7,8 +7,8 @@ HIT DEFINITION;Definition line of subject:  A definition is a mandatory descript
 NUMBER OF IDENTITIES IN HSP;A HSP is a High Score Segment Pair. This property specify the number of identities in HSP;Hsp_identity;SmallInteger;selectHspIdentities
 NUMBER OF POSITIVES IN HSP;A HSP is a High Score Segment Pair. This property specify the number of positive (conservative) substitutions in the alignment;Hsp_positive;SmallInteger;selectHspPositives
 E-VALUE OF HSP;A HSP is a High Score Segment Pair. This numeric property specify the e-value of HSP;Hsp_evalue;FixedDecimal;selectHspEValues
-SCORE BITS OF HSP;Score (in bits) of HSP;Hsp_bit-score;FixedDecimal;selectHitScores
-SCORE OF HSP;Score of HSP;Hsp_score;FixedDecimal;selectHspScores
+SCORE BITS OF HSP;Score (in bits) of HSP;Hsp_bit-score;FixedDecimal;selectHspScores
+SCORE OF HSP;Score of HSP;Hsp_score;FixedDecimal;selectHitScores
 NUMBER OF START OF HSP IN QUERY;A HSP is a High Score Segment Pair. This property specify the offset (number) of query at the start of the alignment (one-offset);Hsp_query-from;SmallInteger;selectHspQueryFroms
 NUMBER OF END OF HSP IN QUERY;A HSP is a High Score Segment Pair. This numeric property specify the end of HSP;Hsp_query-to;SmallInteger;selectHspQueryTos
 NUMBER OF START OF HSP IN SUBJECT;A HSP is a High Score Segment Pair. This property specify the offset (number) of database sequence at the start of the alignment (one-offset), i.e. start of HSP in subject;Hsp_hit-from;SmallInteger;selectHspHitFroms
