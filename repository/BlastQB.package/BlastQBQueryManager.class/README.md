@@ -1,15 +1,6 @@
 Uses a BlastQBFilterSelector to select query output results.
 
 Instance Variables
-	blastCollection:		<Object>
-	blastReader:		<Object>
-	selectedNodes:		<Object>
-
-blastCollection
-	- xxxxx
-
-blastReader
-	- xxxxx
-
-selectedNodes
-	- xxxxx
+	blastCollection:		<Collection> of <FileStream>
+	blastReader:			<BioNCBIBlastReader>
+	selectedNodes:		<Collection> of <BlastQBProperty>

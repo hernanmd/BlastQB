@@ -10,7 +10,8 @@
 		"blastGenBankButton",
 		"blastMergeButton",
 		"blastSaveResultsButton",
-		"blastExportButton"
+		"blastExportButton",
+		"gbRecords"
 	],
 	"name" : "BlastQBResultsComponent",
 	"type" : "normal"
