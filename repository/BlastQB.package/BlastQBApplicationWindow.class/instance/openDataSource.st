@@ -2,5 +2,5 @@ menu
 openDataSource
 	" Private - Request file "
 	
-	BioObject requestXmlFile ifNotNilDo: [ : fileName | 
+	BioObject requestOpenXMLFile ifNotNilDo: [ : fileName | 
 		self openBlastNamed: fileName ].
