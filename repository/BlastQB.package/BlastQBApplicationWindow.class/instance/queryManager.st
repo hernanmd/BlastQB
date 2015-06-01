@@ -1,4 +1,5 @@
 accessing
 queryManager
-	^ queryManager
-		ifNil: [ queryManager := BlastQBQueryManager new ]
+	" See comment in #blastQueryManager "
+
+	^ self project blastQueryManager

@@ -9,8 +9,8 @@
 		"blastCollection",
 		"blastReader",
 		"selectedNodes",
-		"username",
-		"selectedResultIndex"
+		"selectedResultIndex",
+		"bastResults"
 	],
 	"name" : "BlastQBQueryManager",
 	"type" : "normal"

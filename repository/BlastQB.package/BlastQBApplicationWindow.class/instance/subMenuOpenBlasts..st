@@ -5,4 +5,4 @@ subMenuOpenBlasts: item
 		name: 'Saved Blast Filters...';
 		icon: Smalltalk ui icons openIcon;
 		shortcut: $s command;
-		action: [ BlastQBSavedBlasts open ]
+		action: [ BlastQBSavedBlasts open owner: self queryManager ]

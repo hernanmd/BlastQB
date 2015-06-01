@@ -5,4 +5,5 @@ openGenBankBrowserTool
 		ifTrue: [ self blastReader nextReader parser: (Smalltalk at: #PCTGenBankOptions) parserProfileOption ].	
 	(Smalltalk hasClassNamed: #PCTGenBankBrowserApplicationWindow)
 			ifTrue: [ ((Smalltalk at: #PCTGenBankBrowserApplicationWindow) openWithGenBankRecords: self downloadGenBankRecords)
+						owner: self;
 						addAlignedSequencesFrom: self queryManager blastFilterAlignment ]
