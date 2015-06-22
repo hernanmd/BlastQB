@@ -1,5 +1,5 @@
 accessing
-blastQueryResultItems
+blastQueryResultsItems
 	" Answer a <Collection> with the currently result items "
 
-	^ self blastQueryResultsWithoutHeader
+	^ self blastResults listItems

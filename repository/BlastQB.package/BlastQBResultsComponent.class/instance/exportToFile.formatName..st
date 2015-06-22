@@ -5,7 +5,7 @@ exportToFile: filename formatName: fileFormatName
 	Cursor write showWhile: [ | formatter |
 		formatter := (BioFileFormatter formatterFor: fileFormatName) 
 					outputFilename: filename;
-					validate: self blastQueryResultItems allButFirst;
+					validate: self blastQueryResultItems;
 					export;
 					yourself ]
 			
