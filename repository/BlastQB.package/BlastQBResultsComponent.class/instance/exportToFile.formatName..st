@@ -1,6 +1,6 @@
 accessing
 exportToFile: filename formatName: fileFormatName
-	" Do the export to filename "
+	" Export the receiver's results to filename "
 
 	Cursor write showWhile: [ | formatter |
 		formatter := (BioFileFormatter formatterFor: fileFormatName) 
