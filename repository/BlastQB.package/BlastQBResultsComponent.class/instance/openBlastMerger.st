@@ -3,6 +3,6 @@ openBlastMerger
 	" Open a UI to merge receiver's contents "
 
 	BlastQBMerger new 
-		blastFilterResult: self queryManager selectedFilter; 
+		blastFilterResult: self selectedFilter; 
 		openWithSpec;
 		centered
