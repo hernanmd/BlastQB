@@ -1,3 +1,0 @@
-accessing
-cleanBuilderQueries
-	self shouldBeImplemented.

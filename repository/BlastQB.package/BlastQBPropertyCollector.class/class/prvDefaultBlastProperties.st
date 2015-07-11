@@ -16,7 +16,7 @@ NUMBER OF END OF HSP IN SUBJECT;A HSP is a High Score Segment Pair. This numeric
 NUMBER OF SCORE DENSITY;A HSP is a High Score Segment Pair. This numeric property specify the score density;Hsp_density;SmallInteger;selectHspScoreDensities
 NUMBER OF TRANSLATION FRAME OF QUERY;Translation frame of query;Hsp_query-frame;SmallInteger;shouldBeImplemented
 NUMBER OF TRANSLATION FRAME OF SUBJECT;Translation frame of subject;Hsp_hit-frame;SmallInteger;shouldBeImplemented
-NUMBER OF GAPS IN HSP;A HSP is a High Score Segment Pair. Number of gaps in HSP;Hsp_gaps;SmallInteger;shouldBeImplemented
+NUMBER OF GAPS IN HSP;A HSP is a High Score Segment Pair. Number of gaps in HSP;Hsp_gaps;SmallInteger;selectHspNumberOfGaps
 ALIGNMENT STRING FOR THE QUERY (WITH GAPS);Alignment string for the query (with gaps);Hsp_qseq;String;selectHspQSeqs
 ALIGNMENT STRING FOR SUBJECT (WITH GAPS);Alignment string for subject (with gaps);Hsp_hseq;String;selectHspHSeqs
 PERCENTAGE OF IDENTITY;Alignments calculating a % (( ident / align * 100.0 roundTo: 0.1 ) > aPercentageFloat) were identities are aligned up to aPercentageFloat;percentIdentityOverAlignment:cmpSelector:;FixedDecimal;selectPercentagesOverAlignment'
