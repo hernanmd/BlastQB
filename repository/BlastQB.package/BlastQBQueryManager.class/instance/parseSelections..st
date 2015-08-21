@@ -4,6 +4,4 @@ parseSelections: currentNodes
 
 	self blastCollection collect: [: fileStream |
 		fileStream reset.
-		BlastQBSettings composeAllQueriesWithOr 
-			ifTrue: [ self blastReader filter composeOr: true ].		
-		self addParseResult: (self parseNodes: currentNodes in: fileStream)]
+		self addParseResult: (self parseNodes: currentNodes in: fileStream) ]
