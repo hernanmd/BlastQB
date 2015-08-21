@@ -6,4 +6,4 @@ filterFrom: aQBBuilder
 				perform: query selector 
 				node: query receiver 
 				withArgument: query arguments ]
-		displayingProgress: 'Executing query...' translated
+"		displayingProgress: 'Executing query...' translated"
