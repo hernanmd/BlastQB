@@ -7,4 +7,4 @@ saveResults
 			ifTrue: [ 
 				Cursor write showWhile: [ 
 					(BioSerializationEngine for: filename) serialize: self queryManager results].
-				self inform: 'Blast results saved in file: ' , filename ] ].
+				self informMessage: 'Blast results saved in file: ' , filename ] ].
