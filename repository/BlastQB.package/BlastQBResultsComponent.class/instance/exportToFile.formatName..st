@@ -3,6 +3,7 @@ exportToFile: filename formatName: fileFormatName
 	" Export the receiver's results to filename "
 
 	Cursor write showWhile: [ | formatter |
+		self halt.		
 		formatter := (BioFileFormatter formatterFor: fileFormatName) 
 					outputFilename: filename;
 					validate: self blastQueryResultItems;
