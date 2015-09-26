@@ -4,7 +4,7 @@ addTabFromBlastFilter: blastFilter
 	| newTab filterRatioLegend |
 	filterRatioLegend := blastFilter size asString , '/'  , self queryManager blastHitCount asString.
 	newTab := self 
-		addResultsTab: blastFilter filtersCount asString
+		blastQueryResultsTab: blastFilter filtersCount asString
 		size: filterRatioLegend 
 		contents: (self buildResults: blastFilter).
 	self manager addTab: newTab.

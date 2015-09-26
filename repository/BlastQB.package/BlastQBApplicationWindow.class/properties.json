@@ -1,12 +1,11 @@
 {
 	"commentStamp" : "HernanMoralesDurand 6/26/2014 21:44",
-	"super" : "SpecQBApplicationWindow",
+	"super" : "SpecTBAppQMWindow",
 	"category" : "BlastQB-UI",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"queryManager",
 		"blastInfoTab",
 		"blastFilter"
 	],

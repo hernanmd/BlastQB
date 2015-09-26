@@ -2,7 +2,5 @@ initialization
 initializeWidgets
 
 	manager := self newTabManager.
-	manager whenTabSelected: [ 
-		self updateSelectedTab.
-		self updateTitle ].
+	manager whenTabSelected: [ self updateTitle ].
 	self populateManager

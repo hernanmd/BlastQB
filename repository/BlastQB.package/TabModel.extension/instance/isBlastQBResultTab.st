@@ -1,4 +1,0 @@
-*BlastQB
-isBlastQBResultTab
-
-	^ false

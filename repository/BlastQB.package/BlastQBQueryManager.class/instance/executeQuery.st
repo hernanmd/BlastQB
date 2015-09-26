@@ -3,5 +3,8 @@ executeQuery
 	" Private - Validate and execute the receiver's query "
 
 	^ (self canExecute and: [ self validSelectedNodes ])
-		ifTrue: [ self executeValidQuery ]
+		ifTrue: [ 
+			self buildQueries.
+			self parseSelections: self selectedNodes.
+			self parseResults last ]
 		ifFalse: [ BioBlastNullFilter new ]

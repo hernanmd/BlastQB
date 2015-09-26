@@ -2,7 +2,7 @@ menu
 subMenuOpenBlasts: item
 
 	item
-		name: 'Saved Blast Results...';
+		name: 'Saved Blast Filters...';
 		icon: Smalltalk ui icons openIcon;
 		shortcut: $s command;
-		action: [ BlastQBSavedBlasts openWithOwner: self queryManager ].
+		action: [ BlastQBSavedBlasts open owner: self queryManager ]

@@ -4,7 +4,7 @@ openUpdate: fileName
 	
 	self blastInfoTab blastInformationItems: { 
 		'File path: ' -> fileName .
-		'File size: ' -> fileName asFileReference asFileSize .
+		'File size: ' -> (fileName asFileReference sizeInMegabytes asString  , ' Mb') .
 		'File date: ' -> fileName asFileReference creationTime asString .
 		'Hits: ' -> self queryManager blastHitCount asString }.
 	self blastInfoTab blastSummaryItems: self queryManager blastHeader lines.
