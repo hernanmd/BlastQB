@@ -1,8 +1,8 @@
 accessing
-blastQueryResultsTab: rsNumber size: rsSize contents: aCollection
+addResultsTab: rsNumber size: rsSize contents: aCollection
 	| tab |
 	
-	tab := self newTab.
+	tab := self instantiate: BlastQBResultTabModel.
 	tab
 		label: '(' , rsNumber , ') ' , rsSize;
 		icon: Smalltalk ui icons nautilusIcon;

@@ -1,0 +1,4 @@
+testing
+hasNewQuery
+
+	^ self hasNewItems

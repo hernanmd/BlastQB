@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "TabModel",
+	"category" : "BlastQB-Tabs",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"blastResult"
+	],
+	"name" : "BlastQBResultTabModel",
+	"type" : "normal"
+}

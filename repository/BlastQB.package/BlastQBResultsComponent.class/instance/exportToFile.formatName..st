@@ -1,11 +1,12 @@
 accessing
-exportToFile: filename formatName: fileFormatName
-	" Do the export to filename "
+exportToFile: fileName formatName: fileFormatName
+	" Export the receiver's results to filename "
 
 	Cursor write showWhile: [ | formatter |
 		formatter := (BioFileFormatter formatterFor: fileFormatName) 
-					outputFilename: filename;
+					outputFilename: fileName;
 					validate: self blastQueryResultItems;
 					export;
-					yourself ]
-			
+					yourself ].
+	(self confirm: 'Exported to file:' , fileName , '. Do you wish to display the file?') 
+		ifTrue: [ self openTextWindow: (self openFullFileNamed: fileName) contents ] 

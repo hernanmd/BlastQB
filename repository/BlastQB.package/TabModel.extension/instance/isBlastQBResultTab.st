@@ -1,0 +1,4 @@
+*BlastQB
+isBlastQBResultTab
+
+	^ false
