@@ -4,5 +4,7 @@ openQuery
 
 	(self requestFileNameForOpen: self blastQueryExtension) ifNotNilDo: [: filename | 
 		| qbQueries | 
-		qbQueries := (BioSerializationEngine for: filename) materialize.
-		self replayQueries: qbQueries ].
+		[ qbQueries := (BioSerializationEngine for: filename) materialize ]
+		on: Error
+		do: [ :ex | self informMessage: ex messageText ].	
+		qbQueries ifNotNil: [ self replayQueries: qbQueries ] ].
