@@ -2,7 +2,7 @@ callbacks
 selectFormat
 	" Private - Open a window to select export format "
 	
-	(SpecFormatSelectorModel 
+	(SpcFormatSelectorModel 
 		owner: self 
 		items: self exportFormats)
 			openWithSpec;
