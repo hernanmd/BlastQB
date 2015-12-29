@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "HernanMoralesDurand 8/23/2014 13:42",
-	"super" : "SpecToolbarApplicationWindow",
+	"super" : "SpcToolbarApplicationWindow",
 	"category" : "BlastQB-UI",
 	"classinstvars" : [ ],
 	"pools" : [ ],
