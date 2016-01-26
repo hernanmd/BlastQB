@@ -5,7 +5,7 @@ initializeWidgets
 	blastExportButton := self newButton label: 'Export...'.
 	blastMergeButton := self newButton label: 'Merge...'.
 	blastSaveResultsButton := self newButton label: 'Save...'.
-	blastResults := self instantiate: MultiColumnListModelWithHeader.
+	blastResults := self instantiate: SpcMultiColumnListModelWithHeader.
 	blastResults 
 		beNumbered;
 		beMultipleSelection;

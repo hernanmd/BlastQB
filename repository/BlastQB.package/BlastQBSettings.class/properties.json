@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "HernanMoralesDurand 7/9/2014 16:03",
 	"super" : "Object",
-	"category" : "BlastQB-UI",
+	"category" : "BlastQB-Settings",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [

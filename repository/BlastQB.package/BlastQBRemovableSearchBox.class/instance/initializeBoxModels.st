@@ -1,5 +1,6 @@
 initialization
-initializeSearchBoxModels
+initializeBoxModels
+	" Private - See superimplementor's comment "
 
 	self instantiateModels:
 			#(#propertyList #DropListModel 
