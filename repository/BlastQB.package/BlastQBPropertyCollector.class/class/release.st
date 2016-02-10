@@ -5,5 +5,5 @@ release
 	self release "
 
 	BlastProperties := nil.
-	BlastCombinedProperties := nil.
+
 

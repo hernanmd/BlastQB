@@ -6,8 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"blastInfoTab",
-		"blastFilter"
+		"blastInfoTab"
 	],
 	"name" : "BlastQBApplicationWindow",
 	"type" : "normal"
