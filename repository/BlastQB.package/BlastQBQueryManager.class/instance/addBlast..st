@@ -4,4 +4,4 @@ addBlast: blastContents
 
 	(self blastCollection includes: blastContents)
 		ifFalse: [ self blastCollection add: blastContents ]
-		ifTrue: [ self inform: 'Blast results already loaded' translated ]
+		ifTrue: [ self informMessage: 'Blast results already loaded' ]
