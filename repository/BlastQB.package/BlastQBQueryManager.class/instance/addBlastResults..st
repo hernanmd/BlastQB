@@ -4,5 +4,5 @@ addBlastResults: blastResultsObject
 
 	(self blastResults includes: blastResultsObject)
 		ifFalse: [ self blastResults add: blastResultsObject ]
-		ifTrue: [ self informMessage: 'Blast hits already present' ]
+		ifTrue: [ self inform: 'Blast hits already present' ]
 	

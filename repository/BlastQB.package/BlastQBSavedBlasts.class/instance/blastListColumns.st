@@ -5,5 +5,5 @@ blastListColumns
 	^ Array 
 		with: (TreeColumnModel new displayBlock: [:node | node content date asString ]; headerLabel: 'Filter Date'; yourself)
 		with: (TreeColumnModel new displayBlock: [:node | node content size asString ]; headerLabel: 'Hits'; yourself)
-		with: (TreeColumnModel new displayBlock: [:node | node content creator asString ]; headerLabel: 'Author'; yourself)
+		with: (TreeColumnModel new displayBlock: [:node | node content author asString ]; headerLabel: 'Author'; yourself)
 		with: (TreeColumnModel new displayBlock: [:node | node content date asString ]; headerLabel: 'Latest Update'; yourself)
