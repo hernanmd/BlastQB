@@ -2,4 +2,6 @@ accessing
 queryManager
 	" See comment in #blastQueryManager "
 
-	^ self project blastQueryManager
+	^ BioObject isPhyloclassTalk
+		ifTrue: [ self project blastQueryManager ]
+		ifFalse: [ queryManager ifNil: [ queryManager := BlastQBQueryManager new ] ]
