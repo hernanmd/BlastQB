@@ -3,9 +3,9 @@ initializeWidgets
 	" Private - See superimplementor's comment "
 
 	self instantiateModels: #(
-		blastList TreeModel 
-		blastDetails  SpecSearchableMultiColumnList 
-		toolbar SpecExecHelpToolbar).
+		blastList 		TreeModel 
+		blastDetails  	SpcSearchableMultiColumnList 
+		toolbar 		SpcExecHelpToolbar).
 	self toolbar okButton 
 		label: 'Merge';
 		action: [ self mergeFilters ].
