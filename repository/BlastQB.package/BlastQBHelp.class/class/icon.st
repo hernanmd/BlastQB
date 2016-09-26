@@ -1,3 +1,3 @@
 accessing
 icon
-	^ HelpIcons iconNamed: #packageIcon
+	^ Smalltalk ui icons packageIcon

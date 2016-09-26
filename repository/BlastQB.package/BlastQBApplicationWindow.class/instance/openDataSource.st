@@ -1,6 +1,6 @@
 menu
 openDataSource
 	" Private - Request file "
-	
-	BioObject requestOpenXMLFile ifNotNilDo: [ : fileName | 
-		self openBlastNamed: fileName ].
+
+	BioObject requestOpenXMLFile
+		ifNotNil: [ :fileName | self openBlastNamed: fileName ]

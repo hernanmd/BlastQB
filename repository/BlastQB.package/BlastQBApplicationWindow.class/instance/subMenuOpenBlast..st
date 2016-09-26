@@ -4,5 +4,5 @@ subMenuOpenBlast: item
 	item
 		name: 'Open BLAST XML...';
 		icon: Smalltalk ui icons openIcon;
-		shortcut: $o command;
+		shortcut: $b command;
 		action: [ self openDataSource ]
