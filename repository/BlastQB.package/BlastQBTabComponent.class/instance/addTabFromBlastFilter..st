@@ -7,6 +7,6 @@ addTabFromBlastFilter: blastFilter
 		addResultsTab: blastFilter filtersCount asString
 		size: filterRatioLegend 
 		contents: (self buildResults: blastFilter).
-	self manager addTab: newTab.
-	self manager selectTab: newTab.
+	self tabManager addTab: newTab.
+	self tabManager selectTab: newTab.
 	newTab selected: true.

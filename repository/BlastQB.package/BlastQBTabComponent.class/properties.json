@@ -1,16 +1,16 @@
 {
-	"commentStamp" : "HernanMoralesDurand 7/2/2014 09:55",
+	"commentStamp" : "HernanMoralesDurand 5/1/2017 15:08",
 	"super" : "BlastQBComposableModel",
 	"category" : "BlastQB-Tabs",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"manager",
 		"blastHeader",
 		"blastInfo",
 		"blastQueryResults",
-		"blastAlignment"
+		"blastAlignment",
+		"tabManager"
 	],
 	"name" : "BlastQBTabComponent",
 	"type" : "normal"

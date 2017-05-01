@@ -1,7 +1,8 @@
 initialization
 populateManager
+	" Add static tabs "
 
-	manager
+	tabManager
 		addTab: self blastInfoTab;
 		addTab: self blastHeaderTab;
 		addTab: self blastAlignmentTab

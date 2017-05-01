@@ -3,7 +3,7 @@ buildResults: blastFilter
 	" Private - Build and answer a <Collection> containing filter results. Each column is determined by the user selection of blast nodes "
 	| rsMatrix |
 
-	rsMatrix := (DhbMatrix rows: blastFilter size columns: self queryManager nodesCount + 1)
+	rsMatrix := (self matrixClass rows: blastFilter size columns: self queryManager nodesCount + 1)
 		atColumn: 1 put: (1 to: blastFilter size) asArray;
 		yourself.
 	2 to: self queryManager nodesCount + 1 do: [ : col |

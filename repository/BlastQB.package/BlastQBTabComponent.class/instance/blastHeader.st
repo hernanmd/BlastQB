@@ -1,4 +1,4 @@
-accessing
+accessing-tab components
 blastHeader
 
 	^ blastHeader

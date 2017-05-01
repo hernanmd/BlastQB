@@ -2,15 +2,15 @@ actions
 openUpdate: fileName
 	" Private - User opened a file, update widgets accordingly "
 	
-	self blastInfoTab blastInformationItems: { 
+	self blastTabComponent blastInformationItems: { 
 		'File path: ' -> fileName .
 		'File size: ' -> fileName asFileReference asFileSize .
 		'File date: ' -> fileName asFileReference creationTime asString .
 		'Hits: ' -> self queryManager blastHitCount asString }.
-	self blastInfoTab blastSummaryItems: self queryManager blastHeader lines.
+	self blastTabComponent blastSummaryItems: self queryManager blastHeader lines.
 
 	" Clean the Alignment tab "
-	self blastInfoTab blastAlignmentItems: Array new.
+	self blastTabComponent blastAlignmentItems: Array new.
 	BlastQBSettings showAlignmentOnOpening
-		ifTrue: [ self blastInfoTab blastAlignmentItems: self queryManager blastAlignment ].
+		ifTrue: [ self blastTabComponent blastAlignmentItems: self queryManager blastAlignment ].
 		

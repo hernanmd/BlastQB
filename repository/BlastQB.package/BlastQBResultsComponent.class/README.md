@@ -1,7 +1,7 @@
 Widget for displaying filter results over a Blast XML result file.
 
 Instance Variables
-	blastResults:		<Object>
+	blastResults:		<MultiColumnListModel>
 
 blastResults
 	- xxxxx

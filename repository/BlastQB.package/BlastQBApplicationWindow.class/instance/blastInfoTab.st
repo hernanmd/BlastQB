@@ -1,4 +1,0 @@
-accessing
-blastInfoTab
-
-	^ blastInfoTab

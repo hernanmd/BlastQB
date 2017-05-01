@@ -3,5 +3,5 @@ defaultSpec
 	<spec>
 	
 	^ SpecLayout composed
-		add: #manager;
+		add: #tabManager;
 		yourself

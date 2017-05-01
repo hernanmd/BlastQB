@@ -1,5 +1,5 @@
 private
 addTabFromBlastFilter: newBlastFilter
 
-	self blastInfoTab addTabFromBlastFilter: newBlastFilter
+	self blastTabComponent addTabFromBlastFilter: newBlastFilter
 

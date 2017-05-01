@@ -1,8 +1,6 @@
 initialization
 initializeWidgets
+	" Private - See superimplementor's comment "
 
-	manager := self newTabManager.
-	manager whenTabSelected: [ 
-		self updateSelectedTab.
-		self updateTitle ].
-	self populateManager
+	tabManager := self newTabManager.
+	tabManager owner: self

@@ -1,5 +1,5 @@
 private
 selectedTab
 
-	^ self manager selectedTab
+	^ self tabManager selectedTab
 	
