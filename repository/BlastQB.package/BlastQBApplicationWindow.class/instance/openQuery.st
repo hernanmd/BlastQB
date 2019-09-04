@@ -2,7 +2,7 @@ actions
 openQuery
 	" Open a query files containing queries to replicate in the receiver "
 
-	(self requestFileNameForOpen: self blastQueryExtension) ifNotNilDo: [: filename | 
+	(self requestFileNameForOpen: self blastQueryExtension) ifNotNil: [: filename | 
 		| qbQueries | 
 		[ qbQueries := (BioSerializationEngine for: filename) materialize ]
 		on: Error
