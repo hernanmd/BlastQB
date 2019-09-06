@@ -8,5 +8,5 @@ buildDeleteButton
 			action: #removeFilters
 			arguments: nil
 			getEnabled: nil
-			labelForm: Smalltalk ui icons smallCancelIcon
+			labelForm: #smallCancelIcon asIcon
 			help: 'Remove filters' translated.

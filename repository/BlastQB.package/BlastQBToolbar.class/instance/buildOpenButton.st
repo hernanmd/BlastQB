@@ -7,5 +7,5 @@ buildOpenButton
 			action: #openFile
 			arguments: nil
 			getEnabled: nil
-			labelForm: window theme smallOpenIcon
+			labelForm: #smallOpenIcon asIcon
 			help: 'Open file' translated.

@@ -8,5 +8,5 @@ buildConfigurationButton
 			action: #openOptions
 			arguments: nil
 			getEnabled: nil
-			labelForm: window theme smallConfigurationIcon
+			labelForm: #smallConfigurationIcon asIcon
 			help: 'Options' translated.

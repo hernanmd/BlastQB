@@ -8,7 +8,7 @@ buildToolbar: fileMenu
 	dock
 		add: 'File' translated
 		font: window theme menuBarFont
-		icon: Smalltalk ui icons smallOpenIcon
+		icon: #smallOpenIcon asIcon
 		help: 'File operations' translated
 		subMenu: fileMenu;
 		addMorphBack: tools.

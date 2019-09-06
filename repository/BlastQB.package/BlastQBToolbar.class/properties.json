@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "MenuModel",
+	"super" : "MenuPresenter",
 	"category" : "BlastQB-UI",
 	"classinstvars" : [ ],
 	"pools" : [ ],

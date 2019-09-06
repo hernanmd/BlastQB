@@ -7,5 +7,5 @@ buildOpenQuerySource: fileMenu
 		selector: #openFile.
 	fileMenu lastItem
 		font: window theme menuFont;
-		icon: Smalltalk ui icons smallOpenIcon;
+		icon: #smallOpenIcon asIcon;
 		keyText: 'Ctrl+O'.

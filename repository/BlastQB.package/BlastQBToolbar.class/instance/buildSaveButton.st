@@ -7,5 +7,5 @@ buildSaveButton
 			action: #saveFile
 			arguments: nil
 			getEnabled: nil
-			labelForm: window theme smallSaveIcon
+			labelForm: #smallSaveIcon asIcon
 			help: 'Save file' translated.

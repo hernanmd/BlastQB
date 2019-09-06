@@ -7,5 +7,5 @@ buildHelpButton
 			action: #openHelp
 			arguments: nil
 			getEnabled: nil
-			labelForm: Smalltalk ui icons smallHelpIcon
+			labelForm: #smallHelpIcon asIcon
 			help: 'Help' translated.

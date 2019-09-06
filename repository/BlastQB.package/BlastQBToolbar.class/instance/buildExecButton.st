@@ -8,5 +8,5 @@ buildExecButton
 			action: #execute
 			arguments: nil
 			getEnabled: nil
-			labelForm: Smalltalk ui icons smallDoItIcon
+			labelForm: #smallDoItIcon asIcon
 			help: 'Execute query' translated.

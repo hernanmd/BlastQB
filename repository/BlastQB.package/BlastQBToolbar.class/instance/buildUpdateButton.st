@@ -7,5 +7,5 @@ buildUpdateButton
 			action: #openUpdate
 			arguments: nil
 			getEnabled: nil
-			labelForm: Smalltalk ui icons smallUpdateIcon
+			labelForm: #smallUpdateIcon asIcon
 			help: 'Update' translated.
