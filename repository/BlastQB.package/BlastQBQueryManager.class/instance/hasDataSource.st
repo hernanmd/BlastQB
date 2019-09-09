@@ -1,4 +1,4 @@
 testing
 hasDataSource
 
-	^ self blastCollection notEmpty
+	^ self blastReadStream notNil

@@ -1,3 +1,4 @@
 accessing
 icon
-	^ Smalltalk ui icons packageIcon
+
+	^ #packageIcon asIcon

@@ -4,7 +4,8 @@ blastHeaderTab
 	tab := self newTab.
 	tab
 		label: 'Blast Header';
-		icon: Smalltalk ui icons nautilusIcon;
+		icon:
+			(self iconNamed: #up);
 		presenter: self blastHeader;
 		closeable: false.
 	^ tab

@@ -4,6 +4,7 @@ blastAlignmentTab
 	tab := self newTab.
 	tab
 		label: 'Alignment';
-		icon: Smalltalk ui icons nautilusIcon;
+		icon:
+			(self iconNamed: #smallJustified);
 		presenter: self blastAlignment.
 	^ tab

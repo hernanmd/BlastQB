@@ -5,10 +5,9 @@ initializeWidgets
 	blastExportButton := self newButton label: 'Export...'.
 	blastMergeButton := self newButton label: 'Merge...'.
 	blastSaveResultsButton := self newButton label: 'Save...'.
-	blastResults := self instantiate: SpcMultiColumnListModelWithHeader.
+	blastResults := self instantiate: SpcSearchableMultiColumnListWithHeader.
 	blastResults 
-		beNumbered;
-		beMultipleSelection;
+		beMultipleSelection";
 		displayBlock: [ :e | e collect: #asString ]
-
+"
 

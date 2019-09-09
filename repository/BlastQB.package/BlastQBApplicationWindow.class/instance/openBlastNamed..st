@@ -1,9 +1,11 @@
 accessing
 openBlastNamed: fileName
+
 	(BioObject openFullFileNamed: fileName)
-		ifNotNil: [ :fileStream | 
+		ifNotNil: [ : fileStream | 
 			fileStream isBlastXMLFormat
-				ifTrue: [ self queryManager addBlast: fileStream.
+				ifTrue: [ 
+					self queryManager blastReadStream: fileStream.
 					self openUpdate: fileName.
 					self informMessage: 'BLAST XML opened successfully' ]
 				ifFalse: [ self

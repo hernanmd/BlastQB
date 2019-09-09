@@ -3,4 +3,4 @@ openDataSource
 	" Private - Request file "
 
 	BioObject requestOpenXMLFile
-		ifNotNil: [ :fileName | self openBlastNamed: fileName ]
+		ifNotNil: [ : fileReference | self openBlastNamed: fileReference fullName  ]

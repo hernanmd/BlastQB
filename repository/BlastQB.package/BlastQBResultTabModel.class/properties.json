@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "TabModel",
+	"super" : "TabPresenter",
 	"category" : "BlastQB-Tabs",
 	"classinstvars" : [ ],
 	"pools" : [ ],

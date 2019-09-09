@@ -4,7 +4,8 @@ blastInfoTab
 	tab := self newTab.
 	tab
 		label: 'Blast Information';
-		icon: Smalltalk ui icons nautilusIcon;
+		icon:
+			(self iconNamed: #book);
 		presenter: self blastInfo;
 		closeable: false.
 	^ tab

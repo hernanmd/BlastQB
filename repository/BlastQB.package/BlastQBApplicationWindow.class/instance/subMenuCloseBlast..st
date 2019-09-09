@@ -1,10 +1,10 @@
 menu
 subMenuCloseBlast: item
-
 	item
-		name: 'Close BLAST XML...';
-		icon: Smalltalk ui icons closeIcon;
+		name: self closeXMLString;
+		icon:
+			(self iconNamed: #closeIcon);
 		shortcut: $c command;
-		action: [ self closeDataSource ].
-	self queryManager hasDataSource 
-		ifFalse: [ item disable  ]
+		action: [ self closeXML ].
+	self queryManager hasDataSource
+		ifFalse: [ item disable ]

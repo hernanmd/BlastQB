@@ -2,7 +2,7 @@ actions
 saveResults
 	" Private - Open a dialog for saving the selected filter result in a .brs (Blast Result Set) file "
 
-	(self requestFileNameForSave: 'brs') ifNotNilDo: [: filename | 
+	(self requestFileNameForSave: 'brs') ifNotNil: [ : filename | 
 		filename notEmpty 
 			ifTrue: [ 
 				Cursor write showWhile: [ 

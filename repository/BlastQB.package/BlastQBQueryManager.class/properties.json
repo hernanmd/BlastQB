@@ -6,10 +6,10 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"blastCollection",
 		"blastReader",
 		"selectedNodes",
-		"blastResults"
+		"blastResults",
+		"blastReadStream"
 	],
 	"name" : "BlastQBQueryManager",
 	"type" : "normal"

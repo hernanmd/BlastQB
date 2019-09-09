@@ -5,7 +5,8 @@ defaultSpec
 	^ SpecLayout composed
 		newColumn: [ :c | 
 			c 
-				add: #mainToolbar height: self toolbarHeight;
+				add: #menuToolbar height: self toolbarHeight;
+				"	add: #mainToolbar height: self toolbarHeight;"			
 				add: #growableList;
 				addHSplitter;
 				add: #blastTabComponent;

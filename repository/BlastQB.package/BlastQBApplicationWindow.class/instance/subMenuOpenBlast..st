@@ -1,7 +1,8 @@
 menu
 subMenuOpenBlast: item
 	item
-		name: 'Open BLAST XML...';
-		icon: #openIcon asIcon;
+		name: self openXMLString;
+		icon:
+			(self iconNamed: #openIcon);
 		shortcut: $b command;
 		action: [ self openDataSource ]
