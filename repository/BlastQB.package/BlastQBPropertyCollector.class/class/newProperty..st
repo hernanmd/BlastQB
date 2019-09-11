@@ -5,6 +5,6 @@ newProperty: row
 	^ BlastQBProperty new
 		displayName: row first;
 		explanation: row second;
-		name: row third;
+		propertyName: row third;
 		type: row fourth;
 		propertySelector: row fifth asSymbol

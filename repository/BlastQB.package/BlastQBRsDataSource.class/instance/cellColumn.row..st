@@ -5,9 +5,9 @@ cellColumn: column row: rowIndex
 	element := self elementAt: rowIndex.
 	idx := BlastQBPropertyCollector propertyIndexAt: column id.
 	^ FTCellMorph new
-		cellInset: 5;
+		cellInset: 4;
 		"cellSpacing: ;"
-		"width:; "
+		width: 5; 
 		fillStyle: (idx even ifTrue: [ Color veryVeryLightGray ] ifFalse: [ Color white ]);
 		addMorphBack: (element at: idx + 1) asMorph;
 		yourself

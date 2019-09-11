@@ -1,4 +1,6 @@
 accessing
 blastQueryResultItems: aCollection
 
-	self blastResults items: aCollection
+	self blastResults 
+		items: aCollection 
+		dataSourceClass: BlastQBRsDataSource
