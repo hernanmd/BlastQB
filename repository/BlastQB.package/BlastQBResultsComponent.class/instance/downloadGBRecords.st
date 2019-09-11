@@ -1,5 +1,8 @@
-private
+callbacks
 downloadGBRecords
-	" Private - Download and set the receiver's GenBank records "
-
-	^ self gbRecords: (self blastReader downloadGenBankRecords: self lastFilteredResult).
+	" Private - Attempt to download GenBank records with the receiver's loaded results "
+	
+	self downloadGenBankRecords ifNotEmpty: [ : downloaded | 
+		((Smalltalk at: #PCTGenBankBrowserApplicationWindow) openWithGenBankRecords: downloaded)
+			owner: self;
+			addAlignedSequencesFrom: self queryManager blastFilterAlignment ]

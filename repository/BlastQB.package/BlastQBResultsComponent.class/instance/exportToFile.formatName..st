@@ -9,5 +9,6 @@ exportToFile: fileName formatName: fileFormatName
 					validate: self blastQueryResultItems;
 					export;
 					yourself ].
-	(formatter isValid and: [ self confirm: 'Exported to file:' , fileName , '. Do you wish to display the file?' ])
-		ifTrue: [ self openTextWindow: (self openFullFileNamed: fileName) contents ] 
+	formatter isValid
+		ifTrue: [ self postExportAction: fileName ]
+		ifFalse: [ self postExportFailed ]

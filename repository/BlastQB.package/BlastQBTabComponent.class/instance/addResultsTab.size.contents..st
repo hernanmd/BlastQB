@@ -9,8 +9,8 @@ addResultsTab: rsNumber size: rsSize contents: aCollection
 			(self iconNamed: #nautilusIcon);
 		presenter:
 			(BlastQBResultsComponent new
-				blastQueryResultItems: aCollection;
-				header: self selectedNodes).
+				header: self selectedNodes;
+				blastQueryResultItems: aCollection).
 	" self needsWork "
 	tab whenWindowChanged: [ :w | w whenClosedDo: [ self halt ] ].
 	^ tab

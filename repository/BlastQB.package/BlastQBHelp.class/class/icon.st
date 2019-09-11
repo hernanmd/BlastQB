@@ -1,4 +1,3 @@
 accessing
 icon
-
-	^ #packageIcon asIcon
+	^ self iconNamed: #packageIcon

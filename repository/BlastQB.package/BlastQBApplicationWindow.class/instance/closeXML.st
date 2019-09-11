@@ -6,3 +6,4 @@ closeXML
 	self headerTabClean.
 	self alignTabClean.
 	self disableCloseXML.
+	self queryManager release.

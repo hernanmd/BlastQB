@@ -2,6 +2,7 @@ private
 executeNewQuery
 
 	| newBlastFilter |
+	
 	newBlastFilter := self queryManager executeQuery.
 	(self hasNewResults: newBlastFilter) 
 		ifTrue: [ self addTabFromBlastFilter: newBlastFilter ]
