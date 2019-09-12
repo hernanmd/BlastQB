@@ -1,8 +1,10 @@
 accessing
-openTextWindow: aString
+openTextWindow: fileName
 	" Private - Open a text window with aString as contents "
 
-	TextPresenter new 
-		text: aString;
-		title: BlastQBApplicationWindow title;
-		openWithSpec
+	Cursor read showWhile: [ 
+		TextPresenter new 
+			text: (self openFullFileNamed: fileName) contents;
+			title: fileName;
+			openWithSpec;
+			centered ].

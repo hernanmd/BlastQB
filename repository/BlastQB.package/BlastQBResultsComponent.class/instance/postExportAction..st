@@ -10,4 +10,4 @@ postExportAction: fileName
 			cr;
 			nextPutAll: 'Do you wish to display the file?' ].
 	(self confirm: userMessage)
-			ifTrue: [ self openTextWindow: (self openFullFileNamed: fileName) contents ]
+			ifTrue: [ self openTextWindow: fileName ]
