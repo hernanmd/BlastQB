@@ -4,6 +4,5 @@ initializeToolsSubMenu: group
 		addItem: [ :item | 
 			item
 				name: 'Tools';
-				icon:
-					(self iconNamed: #openIcon);
+				icon: #openIcon asIcon;
 				subMenu: self subMenuForTools ]

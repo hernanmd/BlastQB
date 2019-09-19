@@ -1,7 +1,7 @@
 menu
 subMenuForHelp 
 
-	^ MenuModel new
+	^ MenuPresenter new
 		addGroup: [ : group |
 			group 
 				addItem: [ : item | self subMenuHelp: item ];

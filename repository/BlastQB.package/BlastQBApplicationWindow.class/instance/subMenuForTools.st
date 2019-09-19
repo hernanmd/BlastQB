@@ -2,7 +2,7 @@ menu
 subMenuForTools 
 	" Private - Configure menu for  receiver's Tools "
 
-	^ MenuModel new
+	^ MenuPresenter new
 		addGroup: [ : group |
 			self addBlastQBItems: group.
 			self addPhyloclassTalkQBItems: group ]

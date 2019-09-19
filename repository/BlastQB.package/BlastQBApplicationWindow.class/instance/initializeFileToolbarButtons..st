@@ -4,6 +4,5 @@ initializeFileToolbarButtons: group
 		addItem: [ :item | 
 			item
 				description: self openXMLString;
-				icon:
-					(self iconNamed: #openIcon);
+				icon: #openIcon asIcon;
 				action: [ self openDataSource ] ]

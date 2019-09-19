@@ -3,6 +3,6 @@ subMenuOpenBlasts: item
 
 	item
 		name: 'Saved Blast Results...';
-		icon: Smalltalk ui icons openIcon;
+		icon: #openIcon asIcon;
 		shortcut: $s command;
 		action: [ BlastQBSavedBlasts openWithOwner: self queryManager ].

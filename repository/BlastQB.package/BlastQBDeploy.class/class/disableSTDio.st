@@ -1,0 +1,4 @@
+accessing
+disableSTDio
+
+	Stdio useNullStreams

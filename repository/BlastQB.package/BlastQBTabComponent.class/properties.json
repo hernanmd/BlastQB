@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "HernanMoralesDurand 5/1/2017 15:08",
 	"super" : "BlastQBComposableModel",
-	"category" : "BlastQB-Tabs",
+	"category" : "BlastQB-UI-Tabs",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

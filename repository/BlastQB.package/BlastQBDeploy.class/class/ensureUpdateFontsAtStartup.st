@@ -1,0 +1,4 @@
+accessing
+ensureUpdateFontsAtStartup
+
+	FreeTypeSettings updateFontsAtImageStartup: true.

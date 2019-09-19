@@ -1,0 +1,4 @@
+accessing
+disableStartupPreferences
+
+	PharoCommandLineHandler forcePreferencesOmission: true

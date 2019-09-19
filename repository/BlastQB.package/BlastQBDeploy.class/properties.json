@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "ComposablePresenter",
-	"category" : "BlastQB-UI-Tabs",
+	"super" : "Object",
+	"category" : "BlastQB-Settings",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "BlastQBComposableModel",
+	"name" : "BlastQBDeploy",
 	"type" : "normal"
 }

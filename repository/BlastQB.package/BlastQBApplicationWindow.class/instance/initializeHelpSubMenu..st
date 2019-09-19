@@ -4,6 +4,5 @@ initializeHelpSubMenu: group
 		addItem: [ :item | 
 			item
 				name: 'Help';
-				icon:
-					(self iconNamed: #helpIcon);
+				icon: #helpIcon asIcon;
 				subMenu: self subMenuForHelp ]
