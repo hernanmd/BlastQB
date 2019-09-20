@@ -1,11 +1,10 @@
 accessing
 deploy
-
 	" From https://github.com/pharo-open-documentation/pharo-wiki/blob/master/General/MenuBar.md "
 
 	self setAppLogoAndTitle.
 	self ensureRemoveLogins.
-	self ensureRemoveTests.
+	"self ensureRemoveTests."
 	self ensureRemoveDecompiler.
 	self ensureUpdateFontsAtStartup.
 	self disableMenus.

@@ -2,10 +2,10 @@ accessing
 disableMenus
 
 	"Disable world menu and menubar"
-	"WorldState desktopMenuPragmaKeyword: ''."
+	WorldState desktopMenuPragmaKeyword: ''.
 
 	"Disable Menubar only"
-	"MenubarMorph showMenubar: false."
+	MenubarMorph showMenubar: false.
 
 	"Disable taskbar"
 	TaskbarMorph showTaskbar: false.

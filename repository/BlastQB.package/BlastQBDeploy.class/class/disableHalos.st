@@ -1,4 +1,4 @@
 accessing
 disableHalos
 
-	Morph cmdGesturesEnabled: false.
+	Morph halosEnabled: false.
