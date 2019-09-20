@@ -1,0 +1,1 @@
+CGNSISIPharo7AppInstaller new	product: 'BlastQB';	identity: 'Hernán Morales Durand';	version: '0.1';	url: 'https://github.com/hernanmd/BlastQB';	launcher: 'BlastQBInstaller.exe';	licenseEnFileName: 'LICENSE_ENGLISH';	iconFile: 'BlastQBIcon.ico';	welcomeBmpFile: 'BlastQBWelcome.bmp';	splashBMPFileName: 'BlastQBSplash.bmp';	generate.	

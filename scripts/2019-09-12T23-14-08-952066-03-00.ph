@@ -1,0 +1,1 @@
+| gen |gen := CGNSISIPharo7AppInstaller new	product: 'BlastQB';	yourself.gen generateInstallerGenerator
